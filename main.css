@@ -19,19 +19,8 @@ h1 {
 	font-weight: 400;
 	font-style: normal;
 	font-family: houschka-rounded;
-}
-
-#line1 {
-	padding-top: 142px;
-}
-
-#line2 {
-	padding-top: 15px;
-}
-
-#line3 {
-	padding-top: 15px;
-	padding-bottom: 24px;
+	line-height: 118px;
+	margin-top: 134px;
 }
 
 .button {
@@ -63,14 +52,14 @@ img {
 
 .col-sm-5 {
 	padding-left: 180px;
-	padding-top: 190px;
+	padding-top: 195px;
 }
 
 .col-sm-7 {
 	text-align: right;
 	padding: 20px;
 	padding-right: 180px;
-	padding-top: 190px;
+	padding-top: 195px;
 }
 
 h2 {
