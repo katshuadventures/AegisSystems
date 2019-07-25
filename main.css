@@ -2,30 +2,72 @@ body {
 	margin: 0 auto;
 	border-top-style: none;
 	background-color: white;
-	font-family: neue-haas-grotesk-display;
+	font-family: dejarip;
 	color: #021629;
 }
+
 #title {
 	text-align: center;
-	background-color: #021629;
 	overflow: hidden;
 }
 
 h1 {
-	color: white;
 	text-align: center;
-	font-size: 90px;
-	margin: 0px 350px;
+	font-size: 78px;
+	margin: 0px 200px;
 	font-weight: 400;
 	font-style: normal;
-	font-family: houschka-rounded;
-	line-height: 118px;
-	margin-top: 134px;
+	line-height: 95px;
+	margin-top: 70px;
+	margin-bottom: 100px;
+	font-family: halyard-display;
 }
 
+#gradient {
+	background-image: linear-gradient(white, #446CB3);
+	padding-bottom: 0px;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 45%;
+}
+
+.right {
+  width: 55%;
+}
+
+.left2 {
+  width: 55%;
+  padding-left: 200px;
+}
+
+.right2 {
+  width: 45%;
+}
+
+.left3 {
+  width: 55%;
+}
+
+.right3 {
+  width: 45%;
+  padding-top: 100px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*
 .button {
 	align-content: center;
-	font-family: neue-haas-grotesk-display;
 	font-size: 35px;
 	padding: 10px 22px;
 	border-radius: 8px;
@@ -39,7 +81,7 @@ h1 {
 
 .button:hover {
 	background-color: #446CB3;
-}
+}*/
 
 img {
 	width: 100%;
@@ -63,12 +105,65 @@ img {
 }
 
 h2 {
-	font-size: 77px;
+	font-size: 65px;
 	padding-bottom: 14px;
+	font-family: halyard-display;
+	text-align: left;
+}
+
+h5 {
+	padding-top: 70px;
+	font-size: 50px;
+	padding-bottom: 14px;
+	padding-right: 30px;
+	font-family: halyard-display;
+	text-align: right;
+}
+
+h6 {
+	font-size: 20px;
+	padding-bottom: 14px;
+	padding-left: 150px;
+	padding-right: 30px;
+	font-family: halyard-display;
+	text-align: right;
+}
+
+h9 {
+	padding-top: 500px;
+	font-size: 50px;
+	padding-bottom: 25px;
+	padding-right: 30px;
+	font-family: halyard-display;
+	text-align: left;
+}
+
+h10 {
+	font-size: 20px;
+	padding-bottom: 14px;
+	font-family: halyard-display;
+	text-align: left;
+	padding-right: 100px;
+}
+
+h7 {
+	font-size: 65px;
+	padding-top: 0px;
+	font-family: halyard-display;
+	text-align: left;
 }
 
 p {
 	font-size: 24px;
+	font-family: dejarip;
+}
+
+p1 {
+	font-size: 18px;
+	font-family: halyard-display;
+	text-align: right;
+	padding-left: 500px;
+	padding-bottom: 700px;
 }
 
 #about {
@@ -86,8 +181,11 @@ p {
 }
 
 #gradient {
-	background-image: linear-gradient(white, #446CB3);
 	padding-bottom: 0px;
+}
+
+#padding {
+	padding-bottom: 120px;
 }
 
 h4 {
@@ -137,6 +235,7 @@ h4 {
   color: white;
 }
 
-#social {
-	background-color: white;
+#biglogo {
+	text-align: center;
+	width: 25%;
 }
