@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144488862-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+ 		gtag('config', 'UA-144488862-1');
+	</script>
 	<title>Aegis Systems</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.typekit.net/otg0inw.css">
@@ -12,43 +21,51 @@
 </head>
 <body>
 	<div id="title">
-		<h1 id="line1">SOFTWARE & SENSORS THAT SAVE LIVES</h1>
-		<div>
-			<button class="button"><a href="#form">Show Your Support</a></button>
-		</div>
-		<img align="right" id="logo" src="images/whitelogotransparent.png"/>
+		<h1>Every Life Matters.</h1>
+		<h4> With our sensors and IoT software, you can monitor users' vitals and location in real-time, allowing quick response to worker distress.</h4>
+
+		<!--The Omnis Sensor and Aegis software are an IoT health device software package that monitors a user’s vitals and location in real-time. Our central hub alerts supervisors to worker distress with response options.-->
+
+		<video autoplay muted width="52%" height="39%" src="images/demo.mov">
+			Your browser does not support this video.
+		</video>
 	</div>
 
-	<div id="gradient">	
-		<div id="about">
-			<img src="images/arrowborder.png"/>
-			<div class="col-sm-5">
-				<img src="images/roadsign.svg"/>
-				<div class="product">
-					<h2>Our Product</h2>
-					<p>The Vulcan Sensor and Aegis software are an IoT health device software package that monitors a user’s vitals and location in real-time. Our central hub alerts supervisors to worker distress with response options.</p>
-				</div>
-			</div>
-			<div class="col-sm-7">
-				<h2>Who We Are</h2>
-					<p>The Aegis Systems team is both global and diverse. Our expertise ranges from electrical engineering to policy analysis. Our passion for problem solving and extensive research on labor-related injuries led to the Vulcan Sensor.</p>
-				<div class="product">
-					<img id="temp" src="images/wearablefinal.png"/>
-				</div>
-			</div>
+	<div class="row">
+		<div class="column left">
+			<h2>The Omnis</h2>
+			<h5>The Omnis is the first sensor of its kind. It is capable of monitoring a user's data in intense situations. With its rugged build and design, this wearable is meant for law enforcement and military use.</h5>
+			<a href="#social">
+				<p1>Support us ></p1>
+			</a>
 		</div>
-
-		<div id="contact">
-			<h2 id="joinus">Join Us</h2>
-			<iframe id="form" class="airtable-embed" src="https://airtable.com/embed/shr770NReZVMUWkbu?backgroundColor=gray" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-		</div>
-		<div id="social">
-			<a href="https://www.facebook.com/AegisSystemsVulcan/" class="fa fa-facebook"></a>
-			<a href="mailto:aegisvulcan@gmail.com" class="fa fa-google"></a>
-			<a href="#" class="fa fa-twitter"></a>
-			<a href="#" class="fa fa-linkedin"></a>
-			<img align="right" id="logo" src="images/onelinelogo.png"/>
+		<div class="column right">
+			<img id="hardware" src="images/wearablefinal.png"/>
 		</div>
 	</div>
+
+	<div class="row">
+		<div class="column left2">
+			<img id="team" align="right" src="images/team.jpg"/>
+		</div>
+		<div class="column right2">
+			<h3>Who We Are</h3>
+			<h6>The Aegis Systems team is both global and diverse. Our expertise ranges from electrical engineering to policy analysis. Our passion for problem solving and extensive research on labor-related injuries led to the Vulcan Sensor and the accompanying IoT software.</h6>
+		</div>
+	</div>
+
+	<div id="contact">
+		<h3 id="joinus">Join Us</h3>
+		<iframe id="form" class="airtable-embed" src="https://airtable.com/embed/shr770NReZVMUWkbu?backgroundColor=gray" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+	</div>
+
+	<div id="social">
+		<a href="https://www.facebook.com/AegisSystemsVulcan/" class="fa fa-facebook"></a>
+		<a href="mailto:aegisvulcan@gmail.com" class="fa fa-google"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-linkedin"></a>
+		<img align="right" id="logo" src="images/onelinelogo.png"/>
+	</div>
+</div>
 </body>
 </html>
