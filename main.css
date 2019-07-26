@@ -60,9 +60,8 @@ p1 {
 }
 
 .row {
-	padding: 27px 0px;
+	padding: 36px 0px;
 }
-
 .column {
   float: left;
   padding: 10px;
@@ -159,6 +158,11 @@ img {
 	margin-top: 20px;
 	margin-bottom: 50px;
 	background-color: #81CFE0;
+=======
+#biglogo {
+	text-align: center;
+	width: 25%;
+>>>>>>> d7136816011c81dafb956b9c26dd2b07eec1da95
 }
 
 .button:hover {
